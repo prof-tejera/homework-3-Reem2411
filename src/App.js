@@ -19,22 +19,25 @@ class App extends Component {
         </div>
 
         <div className="App-component">
-          <header className="App-header">Login form component (TODO)</header>
+          <header className="App-header">Login form component </header>
           <div className="App-content">
             <LoginForm />
           </div>
         </div>
 
         <div className="App-component">
-          <header className="App-header">Pager component (TODO)</header>
+          <header className="App-header">Pager component </header>
           <div className="App-content">
-            <Pager />
+            {/* Pass number of pages to be rendered (for bonus part) */}
+            <Pager num_pages={12}/>
           </div>
         </div>
 
         <div className="App-component">
-          <header className="App-header">Radio Buttons component (TODO)</header>
+          <header className="App-header">Radio Buttons component </header>
           <div className="App-content">
+            {/* Take in an array of button configurations (for bonus part) */}
+            {/* <RadioButtons list={['Apple', 'Pear','Orange']}/> */}
             <RadioButtons />
           </div>
         </div>

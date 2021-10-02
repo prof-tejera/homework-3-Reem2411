@@ -3,7 +3,8 @@ import './Button.css';
 
 class Button extends Component {
   render() {
-    return <button className="Default-button">{this.props.text}</button>;
+    // I added a page prop to keep track of the page number we are on for pager 
+    return <button className={`Default-button ${this.props.curr ? 'curr' :''}`}>{this.props.text}</button>;
   }
 }
 

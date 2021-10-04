@@ -11,5 +11,10 @@
 }
 
 .Default-button:active {
-  background-color: #d0d0d0;
+  background-color: #0098FF;
+}
+
+.Default-button.curr {
+  color: white;
+  background-color: green;
 }
